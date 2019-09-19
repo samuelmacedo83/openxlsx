@@ -90,7 +90,7 @@
 #' write.xlsx(iris, file = "writeXLSX3.xlsx", colNames = TRUE, borders = "rows", headerStyle = hs)
 #' 
 #' ## Lists elements are written to individual worksheets, using list names as sheet names if available
-#' l <- list("IRIS" = iris, "MTCATS" = mtcars, matrix(runif(1000), ncol = 5))
+#' l <- list("IRIS" = iris, "MTCARS" = mtcars, matrix(runif(1000), ncol = 5))
 #' write.xlsx(l, "writeList1.xlsx", colWidths = c(NA, "auto", "auto"))
 #' 
 #' ## different sheets can be given different parameters
